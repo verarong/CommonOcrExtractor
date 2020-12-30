@@ -1,10 +1,10 @@
 # ocr_extractor
 
-#处理流程
+# 处理流程
 
 ![](http://www.weikunt.cn:7788/selif/qfazrl0x.png)
 
-#实现功能
+# 实现功能
 
 ocr通用后处理，可视化结构化数据提取器
 
@@ -16,8 +16,12 @@ ocr通用后处理，可视化结构化数据提取器
 
 4.自动文本框切分，有效解决相近字段文本框在文本定位时框在一起的情况
 
+5.支持配置转行等特殊处理
 
-#使用方式
+6.支持配置输出字段的特定样式化
+
+
+# 使用方式
 
 作为子项目导入ocr主项目：from app.extractor.information_extraction import DataHandle
 
